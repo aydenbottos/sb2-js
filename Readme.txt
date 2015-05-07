@@ -1,4 +1,10 @@
---- HOW TO EMBED sb2.js ---
+# sb2.js
+
+This project has been imported from the original Google Code repository at https://code.google.com/p/sb2-js/
+
+The project seemed abandoned as of 2012.
+
+## HOW TO EMBED sb2.js
 
 Include all:
 
@@ -15,7 +21,7 @@ Then add a canvas with id "scratch" anywhere on the page, eg:
 
 And you're done! You can load files with the method ReadFile(url);
 
---- PROPERTIES ---
+## PROPERTIES
 
 sb2.js has a couple of properties that you can set to change the way the player behaves. These are autoLoad, framed, scaledHeight and editorInit().
 
@@ -36,7 +42,7 @@ framed = false;
 
 This will load MarioBros.sb2 with no frame at normal scale. The width and height of the canvas should be 480x360 for a non framed project, so make sure to configure the canvas right.
 
---- FUNCTIONS ---
+## FUNCTIONS
 
 You can call these from anywhere in the page to control the player.
 
